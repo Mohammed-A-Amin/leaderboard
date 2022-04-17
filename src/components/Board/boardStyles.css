@@ -49,13 +49,16 @@
     color: var(--color-light);
 }
 
-#profile{
+.profile{
     /* display: flex; */
 
     margin-top: 3em;
 }
 
-#profile .flex{
+.profiles {
+    margin-top: 2vh;
+}
+.profile .flex{
     display: flex;
     justify-content: space-between;
     gap: 1em;
@@ -68,17 +71,19 @@
     background-color: #ffffff;
 }
 
-#profile .flex .item{
+.profile .flex .item{
     display: flex;
     align-items: center;
 }
 
-#profile .flex img{
+.profile .flex img{
     width: 10%;
     border-radius: 50%;
 }
-
-#profile .flex .info{
+#userPlace {
+    margin-right: 2vw;
+}
+.profile .flex .info{
    padding: 1em;
 }
 

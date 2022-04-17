@@ -1,6 +1,6 @@
 
 import './App.css';
-import Board from './components/Board/board';
+import Board from './components/Board/Board';
 
 import './components/Board/boardStyles.css'
 
